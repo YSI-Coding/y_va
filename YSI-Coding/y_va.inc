@@ -99,6 +99,6 @@ Operators:
 
 #include "y_va/impl"
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_va/tests"
 #endif

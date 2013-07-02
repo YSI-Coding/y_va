@@ -93,9 +93,9 @@ Operators:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
-#include "..\YSI-Internal\y_funcinc"
-#include "..\YSI-Core\y_utils"
+#include "..\YSI_Internal\y_version"
+#include "..\YSI_Internal\y_funcinc"
+#include "..\YSI_Core\y_utils"
 
 stock va_printf(const fmat[], va_:STATIC_ARGS)
 {

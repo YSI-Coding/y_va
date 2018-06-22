@@ -1,20 +1,4 @@
-/**
- * <library name="y_va">
- * <section>
- *  Description
- * </section>
- *  This library currently provides two functions - va_printf and va_format
- *  which perform printf and format using variable arguments passed to another
- *  function.
- *
- *  This is bsed on the variable parameter passing method based on code by Zeex.
- *  See page 15 of the code optimisations topic.
- * <section>
- *  Version
- * </section>
- *  1.0
- * </library>
- *//** *//*
+/*
 Legal:
 	Version: MPL 1.1
 	
@@ -86,22 +70,13 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#if !defined _INC_y_core
-	#tryinclude "y_va\y_va_entry"
+#include "..\..\YSI_Core\y_utils"
+#include "..\..\YSI_Core\y_core\y_thirdpartyinclude"
+
+#if !defined YSI_MAX_INLINE_STRING
+	#define YSI_MAX_INLINE_STRING YSI_MAX_STRING
 #endif
-#if !defined _INC_y_core
-	#tryinclude "YSI_Coding\y_va\y_va_entry"
-#endif
-#if !defined _INC_y_core
-	#tryinclude "YSI\YSI_Coding\y_va\y_va_entry"
-#endif
-#if !defined _INC_y_core
-	#tryinclude <YSI_Coding\y_va\y_va_entry>
-#endif
-#if !defined _INC_y_core
-	#tryinclude <YSI\YSI_Coding\y_va\y_va_entry>
-#endif
-#if !defined _INC_y_core
-	#error Could not find y_va
-#endif
+
+#include "y_va_header"
+#include "y_va_impl"
 

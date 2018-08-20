@@ -1,3 +1,40 @@
+# y_va
+
+Provides `___`, a companion to `...`, which passes all variable parameters to another function instead of receiving them.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_va-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Coding/y_va)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Coding/y_va
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Coding/y_va>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Coding/y_va/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Coding/y_va/features.md) - More features and examples.
+* [FAQs](YSI-Coding/y_va/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Coding/y_va/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Coding/y_va/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_va
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_va-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Coding/y_va)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Coding/y_va
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Coding/y_va>
-```
-
-## Usage
-
-[Click Here] (YSI-Coding/y_va.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 

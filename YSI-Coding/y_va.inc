@@ -90,16 +90,16 @@ Optional plugins:
 	#tryinclude "y_va\y_va_entry"
 #endif
 #if !defined _INC_y_va
-	#tryinclude "YSI_Coding\y_va\y_va_entry"
+	#tryinclude "YSI-Coding\y_va\y_va_entry"
 #endif
 #if !defined _INC_y_va
-	#tryinclude "YSI\YSI_Coding\y_va\y_va_entry"
+	#tryinclude "YSI\YSI-Coding\y_va\y_va_entry"
 #endif
 #if !defined _INC_y_va
-	#tryinclude <YSI_Coding\y_va\y_va_entry>
+	#tryinclude <YSI-Coding\y_va\y_va_entry>
 #endif
 #if !defined _INC_y_va
-	#tryinclude <YSI\YSI_Coding\y_va\y_va_entry>
+	#tryinclude <YSI\YSI-Coding\y_va\y_va_entry>
 #endif
 #if !defined _INC_y_va
 	#error Could not find y_va
